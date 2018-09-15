@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"  content="initial-scale=1" />
+    <link rel="shortcut icon" href="/img/faviconn.png"/>
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="main.css">
+
+    <title>Todo App</title>
+</head>
+<body>
+
+<div ng-app="MyApp">
+    <h2 align="center">Todo List App</h2>
+    <div ng-controller="TodoCtrl" class="container">
+        <form ng-submit="addTodo()" class="form-group" role="form">
+            <input  style="height:50px;" type="text" ng-model="todoText" class="form-control"
+                    placeholder="Enter the to do items to be done...!!!">
+            <br>
+            <p align="center"><input type="submit" class="btn btn-info" value="Add Todo"></p>
+        </form>
+        <div class="list-group">
+            <ol>
+                <li ng-repeat="todo in todos" class="list-group-item">
+                    <div class="todo"> <input type="checkbox" ng-model="todo.done"> <td>{{$index + 1}}.</td> {{ todo.text }}
+                        <span id="pending" class="label pending" ng-click="changeToDone($event)" ng-bind="todo.status"></span>
+                        <a href="" ng-click="archive()"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR0w-zFyqwA6eeRyIPNbJwHxTJ4gbLot1Eb_KLm-pJ56kxurAwrOQ" style="width:42px;height:42px;border:0;float: right;"></a></div>
+                </li>
+            </ol>
+
+        </div>
+    </div>
+</div>
+
+<script src="todo.js"></script>
+</body>
+</html>
