@@ -19,6 +19,7 @@ angular.module('myApp', [])
                     "&near=" + placeEntered +
                     "&query=" + searchQuery);
 
+                console.log(handler);
 
 
                 handler.success(function (data) {
