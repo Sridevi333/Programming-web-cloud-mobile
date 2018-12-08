@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/buildConfig/release"/>
+	<classpathentry kind="src" path="app/build/generated/source/r/debug"/>
+	<classpathentry kind="src" path="app/build/generated/source/r/release"/>
+	<classpathentry kind="src" path="app/src/androidTest/java"/>
+	<classpathentry kind="src" path="app/src/main/java"/>
+	<classpathentry kind="src" path="app/src/test/java"/>
+	<classpathentry kind="lib" path="app/build/intermediates/incremental-classes/debug/instant-run-bootstrap.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_39f66dc8298e2cdd14d72b6f5c125f7f9c4712e9.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_3e31ab153cddea43c30b260ac6599c38df6df6e0.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_5adf6efd0095e8d48f5ea2d970eef025b97273f1.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_5de0752c6dfa255e7dc2e69b6b5c28d98680b418.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_71c48fa8481d8422d485c09550b346fa44c5399d.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_9f1d191ee5d9ae1d8e0151918ff321f740e9444c.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_bdaa81ae19ffe54840b93a9d549006bcf574424c.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_c038fefd036d04a9acd84faa50c787c4a9add9ba.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_e3e4b1729d0a3a5fd36c0b494ee6248649fda2fb.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/classes_f8dc2be19568802bae49414aadaa06fc59d4de81.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/constraint-layout-solver-1.0.0-alpha9_4c9a3692b15ab4046ba26575f61c0a09438c395d.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/release_ef6c225dca31ce6b37f47fa7dfa7859d12a526d5.jar"/>
+	<classpathentry kind="lib" path="app/build/intermediates/pre-dexed/release/support-annotations-25.3.1_acf6da82c4c6d2230af8a3940fddd148bcdf7b2e.jar"/>
+	<classpathentry kind="lib" path="gradle/wrapper/gradle-wrapper.jar"/>
+	<classpathentry kind="output" path="app/build/intermediates/classes/debug"/>
+</classpath>
